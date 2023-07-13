@@ -12,5 +12,13 @@ class Anagram:
             if new_word1 == new_word2:
                newlist.append(a_word)
         self.list=newlist
-        return newlist
+        print(newlist)
 
+Anagram("word").match(["hello", "goodbye"])
+
+# # listen = Anagram("word")
+# listen.match(["hello", "goodbye"])
+# Anagram("enlist").match(["listen", "poison", "hello"])
+# listen = Anagram("listen")
+# listen.match(['enlists', 'google', 'inlets', 'banana'])
+# Anagram("enlist").match(["listen", "silent", "hippopotamus"])
